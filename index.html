@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    
+    <nav id="desktop-nav">
+        <div class="logo">Rahul Prasad</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>    
+    <nav id="hamburger-nav">
+        <div class="logo">Rahul Prasad</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#skill" onclick="togglemenu()">Skill</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+
+            </div>
+        </div>
+  
+        
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="pic-fotor-20240811224911.jpg" alt="" class="image">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rahul Prasad</h1>
+            <p class="section__text__p2">Web developer</p>
+        
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/RahulPrasad.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact info</button>
+            </div>
+            <div id="social-container">
+                <img src="/assets/linkedin.png" alt="linkedin" class="icon" onclick="location.href='https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit'"> 
+                <img src="/assets/github.png" alt="github" class="icon" onclick="location.href='https://github.com/dashboard'"> 
+
+            </div>
+        
+    </div>
+    </section>
+    <section id="about">
+        <p class=".experience-sub-title">Get To Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="photo_2024-08-12_12-13-31.jpg" alt="Rahul Prasad" class="about-pic">
+            </div>
+        
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assets/experience.png" alt="Academic icon" class="icon">
+                    <h3>Experience</h3>
+                    <p>Nil</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/academic.png" alt="Academic icon" class="icon">
+                    <h3>Educatiion</h3>
+                    <p>Btech <br> Computer Science Engineering</p>
+                </div>
+
+            </div>
+           <div class="text-container">
+                <p>Hello! I'm Rahul Prasad, a passionate web developer with a strong foundation in HTML, CSS, JavaScript, and C programming. I hold a B.Tech in Computer Science Engineering, graduating with first-class honors.
+                    When I'm not immersed in code, you'll often find me watching football or catching up on the latest movies. I enjoy exploring how technology can enhance our daily lives and love staying up-to-date with the latest trends in both tech and entertainment.
+                    Currently, I'm improving my skills in React, where I apply my expertise to build engaging and efficient web applications. My goal is to continuously expand my knowledge and contribute to innovative projects that make a difference.
+                    Feel free to connect with me on linkedin or reach out if you'd like to discuss technology, football, movies, or potential collaboration opportunities.Looking forward to connecting!</p>
+           </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Front Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>Node js</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>Express </h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>Git</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="logo" class="icon">
+                            <div>
+                                <h3>Mongo db</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        
+                        <img src="./assets/hostel_managment_system.png" alt="project one" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title">Mini Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    </div>
+
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        
+                        <img src="./assets/priject_2.png" alt="project two" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title">Main Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+            
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon conract-icon email-icon">
+                <p><a href="rahulprasad@gmail.com">rahulprasad@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">linkedin</a></p>
+            </div>
+           
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skill</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Rahul Prasad. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
