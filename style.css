@@ -278,6 +278,7 @@ section{
 
 #skills{
     position: relative;
+    margin-top: 150px;
 }
 
 .experience-sub-title{
@@ -378,4 +379,8 @@ footer{
 }
 footer p{
     text-align: center;
+}
+
+.corrected{
+    margin-right: 300px;
 }
